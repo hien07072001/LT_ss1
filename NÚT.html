@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>THEM SINH VIEN</h1>
+<form name="student_from" method="get"action="new_student.php">
+    <table border="1" width="100">
+        <tr>
+            <td align="right"> Ho ten</td>
+            <td><input type="date" name="DOB" value="" checked></td>
+
+        </tr>
+        <tr>
+            <td>so thich</td>
+            <td><input type="checkbox" value="1" name="hobbie[]" checked>the thao
+                <input type="checkbox" value="2" name="hobbie[]" checked>phim anh
+                <input type="checkbox" value="3" name="hobbie[]">du lich
+            </td>
+
+        </tr>
+        <tr>
+            <td align="center">gioi tinh</td>
+            <td>
+                <input type="radio" name="sex" value="1"> nam
+                <input type="radio" name="sex" value="0" checked> nu</td>
+
+        </tr>
+        <tr>
+            <td> que quan</td>
+            <td><select name="home_town">
+                <option value="hn">ha noi</option>
+                <option value="hp" >hai phong</option>
+                <option value="qn">quang ninh</option>
+            </td>
+
+        </tr>
+        <tr>
+            <td>anh</td>
+            <td><input type="file" name="avatar"></td>
+
+        </tr>
+        <tr>
+            <td>username</td>
+            <td><input type="text" name="username" value=" "></td>
+
+        </tr>
+        <tr>
+            <td>password</td>
+            <td><input type="password" name="password" value=""></td>
+
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td><input type="hidden" value="123" name="ID"></td>
+
+        </tr>
+
+    </table>
+    Ho ten: Ho ten<br>
+    Ngay sinh:<input type="date" name="DOB" value="" checked><br>
+    gioi tinh:<br>
+    <input type="radio" name="sex" value="1"> nam
+    <input type="radio" name="sex" value="0" checked> nu<br>
+    que quan:<select name="home_town">
+    <option value="hn">ha noi</option>
+    <option value="hp" >hai phong</option>
+    <option value="qn">quang ninh</option>
+</select><br>
+    so thich:<input type="checkbox" value="1" name="hobbie[]" checked>the thao<br>
+    <input type="checkbox" value="2" name="hobbie[]" checked>phim anh<br>
+    <input type="checkbox" value="3" name="hobbie[]">du lich<br>
+
+    anh:
+    <input type="file" name="avatar"><br>
+    username:<input type="text" name="username" value=" "><br>
+    password:<input type="password" name="password" value=""><br>
+    ID:<input type="hidden" value="123" name="ID"><br>
+    mota:
+    <textarea name="descrition" cols="30" rows="10"></textarea><br>
+
+
+    <input type="submit" value="gui"><BR>
+    <INPUT TYPE="reset" value="nhap lai"><br>
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
